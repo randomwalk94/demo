@@ -3,6 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://example.org/2015/06/who-is-using-tranquilpeak-hugo-theme/</loc>
+    <lastmod>2015-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2015/05/elements-showcase/</loc>
+    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2015-06-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://example.org/archives/</loc>
     <priority>0</priority>
   </url>
@@ -13,12 +29,44 @@
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>http://example.org/categories/features/</loc>
+    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/html-elements/</loc>
+    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/markdown/</loc>
+    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/</loc>
+    <lastmod>2015-06-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/showcase-appliqu%C3%A9e/</loc>
+    <lastmod>2015-06-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://example.org/tags/</loc>
+    <lastmod>2015-05-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/tranquilpeak/</loc>
+    <lastmod>2015-06-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

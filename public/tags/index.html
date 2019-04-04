@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="generator" content="Hugo 0.54.0 with theme Tranquilpeak 0.4.3-SNAPSHOT">
-<meta name="author" content="Firstname Lastname">
+<meta name="author" content="Hai Le">
 <meta name="keywords" content="">
 <meta name="description" content="Hugo tranquilpeak theme demo">
 
@@ -17,7 +17,7 @@
 <meta name="twitter:title" content="Tags">
 <meta property="og:url" content="http://example.org/tags/">
 <meta property="twitter:url" content="http://example.org/tags/">
-<meta property="og:site_name" content="My New Hugo Site">
+<meta property="og:site_name" content="Almost random">
 <meta property="og:description" content="Hugo tranquilpeak theme demo">
 <meta name="twitter:description" content="Hugo tranquilpeak theme demo">
 <meta property="og:locale" content="en">
@@ -71,7 +71,7 @@
       <header id="header" data-behavior="1">
   <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
   <div class="header-title">
-    <a class="header-title-link" href="http://example.org/">My New Hugo Site</a>
+    <a class="header-title-link" href="http://example.org/">Almost random</a>
   </div>
   
     
@@ -95,9 +95,9 @@
         <a href="http://example.org/#about">
           <img class="sidebar-profile-picture" src="https://www.gravatar.com/avatar/d09dc2d7aa5c467519e8af89f7b3d94c?s=110" alt="" />
         </a>
-        <h4 class="sidebar-profile-name">Firstname Lastname</h4>
+        <h4 class="sidebar-profile-name">Hai Le</h4>
         
-          <h5 class="sidebar-profile-bio">Super bio with markdown support <strong>COOL</strong></h5>
+          <h5 class="sidebar-profile-bio">Lazy Blogging</h5>
         
       </div>
     
@@ -202,21 +202,79 @@
         class="
                hasCoverMetaIn
                ">
-        <section class="postShorten-group main-content-wrap">
-          
-          
-          
 
-        </section>
+        <div id="tags-archives" class="main-content-wrap">
+          <form id="filter-form" action="#">
+            <input name="tag" type="text" class="form-control input--xlarge" placeholder="" autofocus="autofocus">
+          </form>
+          <h4 class="archive-result text-color-base text-xlarge"
+              data-message-zero=""
+              data-message-one=""
+              data-message-other=""></h4>
+
+            <section>
+              
+                <a class="tag tag--primary tag--small" href="#html-elements-list" data-tag="html-elements">
+                  html-elements
+                </a>
+              
+                <a class="tag tag--primary tag--small" href="#markdown-list" data-tag="markdown">
+                  markdown
+                </a>
+              
+            </section>
+            <section class="boxes">
+              
+                <div id="html-elements-list" class="archive box" data-tag="html-elements">
+                  <h4 class="archive-title">
+                    <a class="link-unstyled" href="html-elements">
+                      html-elements (1)
+                    </a>
+                  </h4>
+                  <ul class="archive-posts">
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="http://example.org/2015/05/elements-showcase/">
+                          Elements showcase
+                        </a>
+                        <span class="archive-post-date"> - 
+   28, 2015
+</span>
+                      </li>
+                    
+                  </ul>
+                </div>
+              
+                <div id="markdown-list" class="archive box" data-tag="markdown">
+                  <h4 class="archive-title">
+                    <a class="link-unstyled" href="markdown">
+                      markdown (1)
+                    </a>
+                  </h4>
+                  <ul class="archive-posts">
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="http://example.org/2015/05/elements-showcase/">
+                          Elements showcase
+                        </a>
+                        <span class="archive-post-date"> - 
+   28, 2015
+</span>
+                      </li>
+                    
+                  </ul>
+                </div>
+              
+           </section>
+         </div>
         <footer id="footer" class="main-content-wrap">
   <span class="copyrights">
-    &copy; 2019 Firstname Lastname. 
+    &copy; 2019 Hai Le. 
   </span>
 </footer>
 
       </div>
     </div>
-    
     <div id="about">
   <div id="about-card">
     <div id="about-btn-close">
@@ -225,58 +283,27 @@
     
       <img id="about-card-picture" src="https://www.gravatar.com/avatar/d09dc2d7aa5c467519e8af89f7b3d94c?s=110" alt="" />
     
-    <h4 id="about-card-name">Firstname Lastname</h4>
+    <h4 id="about-card-name">Hai Le</h4>
     
-      <div id="about-card-bio">Super bio with markdown support <strong>COOL</strong></div>
+      <div id="about-card-bio">Lazy Blogging</div>
     
     
       <div id="about-card-job">
         <i class="fa fa-briefcase"></i>
         <br/>
-        Your job title
+        Some college
       </div>
     
     
       <div id="about-card-location">
         <i class="fa fa-map-marker"></i>
         <br/>
-        France
+        USA
       </div>
     
   </div>
 </div>
 
-    <div id="algolia-search-modal" class="modal-container">
-  <div class="modal">
-    <div class="modal-header">
-      <span class="close-button"><i class="fa fa-close"></i></span>
-      <a href="https://algolia.com" target="_blank" rel="noopener" class="searchby-algolia text-color-light link-unstyled">
-        <span class="searchby-algolia-text text-color-light text-small">by</span>
-        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
-      </a>
-      <i class="search-icon fa fa-search"></i>
-      <form id="algolia-search-form">
-        <input type="text" id="algolia-search-input" name="search"
-          class="form-control input--large search-input" placeholder="" />
-      </form>
-    </div>
-    <div class="modal-body">
-      <div class="no-result text-color-light text-center"></div>
-      <div class="results">
-        
-        
-      </div>
-    </div>
-    <div class="modal-footer">
-      <p class="results-count text-medium"
-         data-message-zero=""
-         data-message-one=""
-         data-message-other="">
-         0 posts found
-      </p>
-    </div>
-  </div>
-</div>
     
   
     
@@ -284,7 +311,8 @@
   
 
 
-    
+  </body>
+  
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
@@ -326,7 +354,4 @@ $(document).ready(function() {
 
 
 
-    
-  </body>
 </html>
-
